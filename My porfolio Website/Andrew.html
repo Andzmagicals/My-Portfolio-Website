@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="Andrew.css">
+    <link rel="stylesheet" href="Andrew.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<nav class="navigation">
+    <a href="#home"> <img src="Andrewlogo.jpg" alt="" class="logo"></a>
+    <ul id="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li> 
+        <li><a href="#services">services</a></li> 
+        <li><a href="#project">Project</a></li> 
+        <li><a href="#footerDiv">Contact</a></li>
+        <a href="#contact" class="btn">Download CV</a>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+   
+</nav>
+
+<section id="home">
+   <div class="homepage">
+         <img src="Mainbackground.jpg" alt="">
+    </div>
+
+    <div class="info-box">
+        <h1><span>Hello, I'm Ohamara Chinemerem Andrew</span></h1>
+        <h3><span>Front-end Developer</span> based in Ibadan, Nigeria</h3>
+        <p>
+            Let's build something amazing together
+        </p>
+    </div>
+
+    <div class="btn-box">
+        <!-- <a href="#contact"><button>Hire me</button></a> -->
+        <div class="btn"> <a href="#contact"> Hire me</a></div>
+        <!-- <div class="btn">Contact Me</div> -->
+    </div>
+</section>
+
+<section id="about">
+    <img src="Andrewpicture.jpg" width="100%">
+    <div class="about-box">
+        <div class="about-info">
+            <h1><span>About Me</span></h1>
+            <p>
+                I'm a skiled frontend developer based in Nigeria, I specialize in crafting exceptional user experiences for the web. With a keen eye for detail and a passion for innovation, I bring digital products to life using cutting edge technologies like HTML, CSS, JavaScript and framework like React. <br> <br>
+                 <!-- I'm a passionate and creative Front-End Developer who enjoys transforming ideas into interactive, responsive and user-friendly web experiences. I adore working at the intersection of design and programming thereby creating pixel-perfect designs with clean, efficient and maintainable code. Whether building from scratch or enhancing existing applications.  <br> <br>
+                 My development strategy is user-centric ensuring that the end product not only achieves corporate objectives but also provides an intuitive and delightful user experience. -->
+            </p>
+        </div>
+    </div>
+    
+</section>
+<section id="services">
+    <h1 class="header"><span>Services</span></h1>
+    <div class="services-container">
+        <div class="box">
+            <h1><span>Web Design</span></h1>
+            <p>
+
+            </p>
+            <img src="webdesign_use-removebg-preview.png">
+        </div>
+        <div class="services-container">
+            <div class="box">
+                <h1><span>Web Development</span></h1>
+                <p>
+    
+                </p>
+                <img src="webdevelopment use.jfif">
+            </div>
+    </div>
+</section>
+<section id="project">
+    <h1 class="header"><span>Project</span></h1>
+    <p>
+
+    </p>
+</section>
+<section id="contact">
+    <h1 class="header"><span>Contact</span></h1>
+    <form action="https://getform.io/f/aqondpoa" class="contactMeForm" method="POST">
+        <div class="boxName">
+            <div class="boxName2">
+                <span>Name:</span>
+                <input type="text" name="full_name" placeholder="Enter Full Name" required>
+            </div>
+        </div>
+        <div class="boxName3">
+            <span>Email Address:</span>
+            <input type="email" name="email" class="inputText" placeholder="Enter Email" required>
+        </div>
+         <div class="boxName3">
+                <span>Message</span>
+                <textarea name="message" class="    Text" placeholder="Enter Your Message" required></textarea>
+         </div>
+            <button type="submit" class="btn-message">
+                Send Message
+            </button>      
+    </form>
+</section>
+<hr>
+<footer id="footerDiv">
+    <div class="col-left">
+        <div class="col-box">
+    <span><i class="fa-solid fa-location-dot"></i></span>
+    <span>Asubiojo Community, Zone 3, Olaogun Busstop off Old-Ife Road, Ibadan, Oyo state</span>
+        </div>
+        <div class="col-box">
+        <span><i class="fa-solid fa-phone"></i></span>
+        <span>+2348169011876</span>
+        </div>
+    <div class="col-box">
+    <span><i class="fa-regular fa-envelope"></i></span>
+        <span>Chinemeremohamara@gmail.com</span>
+
+        <div class="socialMedia">
+            <a href="https://x.com/" target="_blank" id="socialMedia2"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="" target="_blank" id="socialMedia2"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" target="_blank" id="socialMedia2"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" target="_blank" id="socialMedia2"><i class="fa-brands fa-github"></i></a>
+            <a href="" target="_blank" id="socialMedia2"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    
+    <!-- <div class="col-right">
+        <span>Services</span>
+        <p>
+
+        </p>
+    </div> -->
+</footer>
+
+    <script src="Andrew.js"></script>
+</body>
+</html>
